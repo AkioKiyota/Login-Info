@@ -73,9 +73,14 @@ Your Trigger must be looks like this.
 
 And also here is an example usage of the script.
 
+![exampleUsage](https://user-images.githubusercontent.com/92454444/169262606-f2fc2549-a7a1-4e80-9b2a-0fdf85311528.png)
 
+I used the same email address for "email address" and "recevier address" variable because i sended the email to myself to test it.
+And the covered part is password.
 
+![result](https://user-images.githubusercontent.com/92454444/169262751-268f2eec-095b-45bf-9acb-2286194e7c1c.png)
 
+Here is the result!
 
 
 
