@@ -20,15 +20,25 @@ First Create a Gmail account
 In your knew created account go to "Manage your Google Account => Security" and close the of the bottom of the page set "Insecure application access" ON.
 With this you will give permission to smtplib module to get access to your Gmail account.
 
-When you run the code it will want 3 inputs;
+BUT before running the code you must change add some variables to "data" file:
 
-First input is goind to be your new created account's email address. For example:
+First variable is goind to be your new created account's email address. For example:
     example@gmail.com
 
-Second input is going to be your new created account's password. For example:
+Second variable is going to be your new created account's password. For example:
     123456789Example
     
-And last input is going to be your Main Email account. The Login infos are going to send to this email address by your new created account.
+And last variable is going to be your Main Email account. The Login infos are going to send to this email address by your new created account.
+
+Here is a full example what to write in "data" file.
+    example@gmail.com,123456789Example,example1@gmail.com
+          ^^^^              ^^^^              ^^^^
+          ''''              ''''              ''''
+          ''''              ''''              ''''
+      First Variable   Second Variable   Third Variable
+      
+----    YOU MUST CHANGE DATA FILE OTHERWISE CODE WONT WORK!!!  -----
+
 
 And also we must make a trigger on our computer for our script.
 
