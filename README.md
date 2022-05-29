@@ -20,24 +20,15 @@ First Create a Gmail account
 In your knew created account go to "Manage your Google Account => Security" and close the of the bottom of the page set "Insecure application access" ON.
 With this you will give permission to smtplib module to get access to your Gmail account.
 
-BUT before running the code you must change add some variables to "data" file:
+BUT before running the code you must change the some variables inside the code its as following:
 
-First variable is goind to be your new created account's email address. For example:
+'emailAdress' variable is goind to be your new created account's email address:
     example@gmail.com
 
-Second variable is going to be your new created account's password. For example:
+'emailPassword' variable is going to be your new created account's password. For example:
     123456789Example
     
-And last variable is going to be your Main Email account. The Login infos are going to send to this email address by your new created account.
-
-Here is a full example what to write in "data" file.
-    example@gmail.com,123456789Example,example1@gmail.com
-          ^^^^              ^^^^              ^^^^
-          ''''              ''''              ''''
-          ''''              ''''              ''''
-      First Variable   Second Variable   Third Variable
-      
-----    YOU MUST CHANGE DATA FILE OTHERWISE CODE WONT WORK!!!  -----
+And 'recevier' variable is going to be your Main Email account. The Login infos are going to send to this email address by your new created account.
 
 
 And also we must make a trigger on our computer for our script.
@@ -49,7 +40,7 @@ Check this link to see how to do it;
 https://superuser.com/questions/15596/automatically-run-a-script-when-i-log-on-to-windows/797635#797635
 
 
-After you set everything it will work smoothly.
+After you set everything, it will work smoothly.
 
 Here is some photos of Task Scheduler if you dont understand;
 
@@ -80,8 +71,4 @@ And Write the path of Alert.py that you installed.
 ![7](https://user-images.githubusercontent.com/92454444/169261336-e3ac181a-b83a-44ee-8f8a-652b1019394e.png)
 
 Your Trigger must be looks like this.
-
-
-
-
 
